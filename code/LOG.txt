@@ -1,0 +1,78 @@
+13.jan.2014			19.apr.2014
+keep
+CPP_OPTIONS.h                   CPP_OPTIONS.h
+DIAGNOSTICS_SIZE.h              DIAGNOSTICS_SIZE.h
+ECCO_CPPOPTIONS.h               
+EXF_OPTIONS.h                   EXF_OPTIONS.h
+GMREDI_OPTIONS.h                GMREDI_OPTIONS.h
+MOM_COMMON_OPTIONS.h            MOM_COMMON_OPTIONS.h
+OBCS_OPTIONS.h                  OBCS_OPTIONS.h
+PROFILES_OPTIONS.h              PROFILES_OPTIONS.h
+SEAICE_OPTIONS.h                SEAICE_OPTIONS.h
+calc_r_star.F                   calc_r_star.F
+obcs_u1_adv_tracer.F            obcs_u1_adv_tracer.F
+packages.conf			packages.conf
+
+update:
+AUTODIFF_PARAMS.h		AUTODIFF_PARAMS.h
+SIZE.h                          SIZE.h
+autodiff_inadmode_set_ad.F      autodiff_inadmode_set_ad.F
+autodiff_inadmode_unset_ad.F    autodiff_inadmode_unset_ad.F
+autodiff_readparms.F            autodiff_readparms.F
+cost_gencost_sshv4.F            cost_gencost_sshv4.F
+cost_sshv4.F                    cost_sshv4.F
+ctrl_map_ini_ecco.F             ctrl_map_ini_ecco.F
+tamc.h				tamc.h
+
+add:
+				ECCO_CPPOPTIONS.h_nosmooth
+                                SALT_PLUME.h
+                                SALT_PLUME_OPTIONS.h
+				cost_salt.F  		
+                                cost_ssh_mean.F
+                                cost_theta.F
+				ctrl_get_gen_rec.F
+                                ctrl_init_rec.F
+                                ctrl_pack.F
+                                ctrl_set_unpack_xyz.F
+				ctrl_summary.F
+                                ctrl_unpack.F
+				do_oceanic_phys.F
+				kpp_calc.F
+				kpp_routines.F
+				salt_plume_check.F
+                                salt_plume_frac.F
+                                salt_plume_readparms.F
+                                salt_plume_tendency_apply_s.F
+				seaice_growth.F
+                                seaice_summary.F
+                                seaice_tracer_phys.F
+
+remove:
+DIAGNOSTICS_SIZE.h_small
+ECCO_CPPOPTIONS.h_TMI
+ECCO_CPPOPTIONS.h_noTMI
+ECCO_CPPOPTIONS.h_old
+SIZE.h_30x30x248f4
+SIZE.h_30x30x256f4
+SIZE.h_30x45x184f4
+SIZE.h_90x90x36f4
+SMOOTH.h
+cost_forcing.F
+cost_gencost_seaicev4.F
+cost_gencost_sstv4.F
+cost_readtopexmean.F
+ecco_check.F
+ecco_cost.h
+ecco_cost_final.F
+ecco_cost_init_fixed.F
+ecco_cost_init_varia.F
+ecco_cost_summary.F
+ecco_cost_weights.F
+ecco_readparms.F
+exf_adjoint_snapshots_ad.F
+profiles.h
+smooth_init_fixed.F
+smooth_readparms.F
+tamc.h_20_163_136_20yrs
+tamc.h_20_84_84_5yrs

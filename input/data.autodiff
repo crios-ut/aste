@@ -1,0 +1,41 @@
+# =========================
+# pkg AUTODIFF parameters :
+# =========================
+#  inAdExact :: get an exact adjoint (no approximation) (def=.True.)
+#
+ &AUTODIFF_PARM01
+# inAdExact = .FALSE.,
+ useSEAICEinAdMode = .FALSE.,
+ useKPPinAdMode = .FALSE.,
+ useGMRediInAdMode = .TRUE.,
+### useGGL90inAdMode = .FALSE.,
+ useSALT_PLUMEinAdMode = .FALSE.,
+ useInOutAdvar = .TRUE.,
+ inAdviscA4Grid     = 0.05E0,
+ inAdviscAhGrid     = 0.1E0,
+# inAdviscAhGrid     = 0.15E0,
+ inAdviscArNr       = 2.E-3,
+ inAddiffKrNrT      = 1.E-3,
+ inAddiffKrNrS      = 1.E-3,
+ inAddiffKhT        = 1.E3,
+ inAddiffKhS        = 1.E3,
+ inAddiffK4T        = 0.E10,
+ inAddiffK4S        = 0.E10,
+ inSEAICEadjMODE    = -1,
+# inAdviscFac        = 2.E0,
+## make sure outAdviscA[4,h]Grid matches viscA[4,h]grid in data!!
+ outAdviscA4Grid    = 0.E0,
+# outAdviscAhGrid    = 4.E-4,
+ outAdviscAhGrid    = 0.E-4,
+ outAdviscArNr      = 5.E-4,
+# outAddiffKrNrT     = 1.E-5,
+# outAddiffKrNrS     = 1.E-5,
+ outAddiffKrNrT     = 0.E-5,
+ outAddiffKrNrS     = 0.E-5,
+ outAddiffKhT       = 0.E-2,
+ outAddiffKhS       = 0.E-2,
+ outAddiffK4T       = 0.E10,
+ outAddiffK4S       = 0.E10,
+ outSEAICEadjMODE    = 0,
+# outAdviscFac       = 1.E0,
+ &
