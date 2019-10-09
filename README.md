@@ -4,6 +4,8 @@ Arctic Subpolar gyre sTate Estimate (ASTE).
 
 ## Contents
 
+Organized by resolution. 
+For now, only "mini-aste" is here: `aste_90x150x60`, with directories:
 - code/ 
     - compile time options and changes from the main MITgcm branch
     - Note: this used to have the suffix `_BE2_dthetadr_sshv4mo_fix_logdkr` 
