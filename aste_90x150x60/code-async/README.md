@@ -16,7 +16,7 @@ For now see the instructions below and comments in `readtile_mpiio.c` for help.
     so they don't overwrite any of the files here.
 3. Set `useSingleCPUio`=.FALSE. in input/data
 
-## Original Global configuration notes
+## Original global configuration notes
 ### Bron Nelson, February 28, 2019
 
 In the newest version, it is no longer necessary to hand-edit the
