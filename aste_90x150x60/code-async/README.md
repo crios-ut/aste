@@ -1,4 +1,23 @@
-From Bron Nelson, February 28, 2019
+# Async I/O
+### Author: Bron Nelson
+### Adapted to ASTE configuration: Tim Smith, An Nguyen, & Arash Bigdeli
+
+This code enables the MITgcm to output without requiring the bottleneck
+of doing I/O all from a single CPU.
+For now see the instructions below and comments in `readtile_mpiio.c` for help.
+
+## Instructions
+
+1. Set domain size in SIZE.h (1 tile per core recommended)
+2. At compile time, specify this directory before other code directories:
+    ```
+    genmake2 -mods 'code-async/ code/`
+    ```
+    so they don't overwrite any of the files here.
+3. Set `useSingleCPUio`=.FALSE. in input/data
+
+## Original global configuration notes
+### Bron Nelson, February 28, 2019
 
 In the newest version, it is no longer necessary to hand-edit the
 constants in "recvTask.c" and "readtile_mpiio.c".  Instead, the file
