@@ -1,6 +1,11 @@
-# Arctic Subpolar gyre sTate Estimate (ASTE).
+# Arctic Subpolar gyre sTate Estimate (ASTE)
 
 [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timothyas/aste-release1/main?filepath=aste_llcreader_example.ipynb)
+
+The repo for ASTE Release 1: 
+
+Nguyen, An, Heimbach, P., Ocaña, V., Pillar, H., Bigdeli, A., & Smith, T. (2020). The Arctic Subpolar gyre sTate Estimate: a data-constrained and dynamically consistent ocean-sea ice estimate for 2002–2017. Submitted to Journal of Advances in Modeling Earth Systems.
+
 
 ## Analyzing ASTE Output
 
