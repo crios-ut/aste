@@ -1,21 +1,26 @@
-# aste
-Compile time and run time options for the
-Arctic Subpolar gyre sTate Estimate (ASTE).
+# Arctic Subpolar gyre sTate Estimate (ASTE)
 
-## Contents
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timothyas/aste-release1/main?filepath=aste_llcreader_example.ipynb)
 
-Organized by resolution. 
-For now, only "mini-aste" is here: `aste_90x150x60`, with directories:
-- code/ 
-    - compile time options and changes from the main MITgcm branch
-    - Note: this used to have the suffix `_BE2_dthetadr_sshv4mo_fix_logdkr` 
-- code-async/
-    - code enabling asynchronous output through the MITgcm 
-- input/
-    - run time options
-    - Note: this used to have the suffix `_BE2_dthetadr_sshv4mo_fix_logdkr`
+The repo for ASTE Release 1: 
 
-## Instructions
+Nguyen, An, Heimbach, P., Ocaña, V., Pillar, H., Bigdeli, A., & Smith, T. (2020). The Arctic Subpolar gyre sTate Estimate: a data-constrained and dynamically consistent ocean-sea ice estimate for 2002–2017. Submitted to Journal of Advances in Modeling Earth Systems.
+
+
+## Analyzing ASTE Output
+
+Click on the Binder button above to see how to access ASTE Release 1 output,
+using [xmitgcm](https://xmitgcm.readthedocs.io/en/latest/).
+to create an
+[xarray](http://xarray.pydata.org/en/stable/)
+Dataset on the fly with [dask](https://dask.org/).
+Calculations and visualizations are enabled by
+[xgcm](https://xgcm.readthedocs.io/en/latest/)
+and [ecco_v4_py](https://ecco-v4-python-tutorial.readthedocs.io/index.html).
+
+## Instructions to re-run ASTE
+
+Specific compile and runtime options coming soon!
 
 Checkout the [MITgcm](https://github.com/MITgcm/MITgcm):
 
