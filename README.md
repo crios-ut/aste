@@ -10,7 +10,7 @@ Nguyen, An, Heimbach, P., Ocaña, V., Pillar, H., Bigdeli, A., & Smith, T. (2020
 ## Analyzing ASTE Output
 
 Click on the Binder button above to see how to access ASTE Release 1 output,
-using [xmitgcm](https://xmitgcm.readthedocs.io/en/latest/).
+using [xmitgcm](https://xmitgcm.readthedocs.io/en/latest/)
 to create an
 [xarray](http://xarray.pydata.org/en/stable/)
 Dataset on the fly with [dask](https://dask.org/).
