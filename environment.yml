@@ -1,0 +1,42 @@
+# following xgcm ci environment specs
+# see: https://pip.pypa.io/en/stable/reference/pip_install/#git
+# for how to specify branches of repos
+name: py38_tim
+channels:
+  - conda-forge
+dependencies:
+    - python=3.8
+# Basics
+    - numpy
+    - scipy
+    - future
+# xarray et al
+    - xarray
+    - netCDF4
+    - bottleneck
+    - dask
+    - cftime
+    - xgcm>=0.5.0
+# plotting resampling
+    - cartopy
+    - cmocean
+    - pyresample
+# for other packages
+    - cachetools
+    - fsspec
+    - zarr
+    - coverage
+    - pytest-cov 
+    - codecov
+    - black
+    - docrep<=0.2.7
+    - aiohttp
+# jupyter etc
+    - jupyter
+    - ipython
+    - ipykernel
+# 
+    - pip
+    - pip:
+        - git+https://github.com/timothyas/xmitgcm.git@aste_reader
+        - git+https://github.com/timothyas/ECCOv4-py.git@sose
