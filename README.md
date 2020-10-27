@@ -22,5 +22,5 @@ and [ecco_v4_py](https://ecco-v4-python-tutorial.readthedocs.io/index.html).
 ### MATLAB Users
 
 Please see [this web portal](https://web.corral.tacc.utexas.edu/OceanProjects/ASTE/) to download the output:
-- `Release 1/`: ASTE Release 1 output as tiled NetCDF files
-- `Analysis Tools/`: MATLAB files for reading the tiled NetCDF files
+- `Release1/`: ASTE Release 1 output as tiled NetCDF files
+- `Analysis_Tools/`: MATLAB files for reading the tiled NetCDF files
