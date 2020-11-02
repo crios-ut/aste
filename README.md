@@ -26,8 +26,10 @@ Note that the output is distributed differently for matlab and python.
 The python demo above shows the horizontal ASTE grid as made up of 6 "tiles",
 where each tile is 270x270 grid points.
 The netcdf files listed below are split such that each file contains a single
-90x90 tile, and 30 tiles make up the whole grid, see e.g.
+90x90 tile, and 29 tiles make up the whole grid, see e.g.
 [here](https://web.corral.tacc.utexas.edu/OceanProjects/ASTE/Release1/ASTE_tiles.png).
+These 29 tiles are distributed across 5 "faces" which will be familiar to anyone who is familiar with the [gcmfaces](https://gcmfaces.readthedocs.io/en/latest/#) package for the LLC90 grid, see e.g. [here](https://gcmfaces.readthedocs.io/en/latest/_images/fig12-eccov4.pdf).
+
 - [Release1/nctiles_monthly](https://web.corral.tacc.utexas.edu/OceanProjects/ASTE/Release1/nctiles_monthly): ASTE Release 1 monthly mean fields output as tiled NetCDF files
 - [Release1/nctiles_monthly_snapshots](https://web.corral.tacc.utexas.edu/OceanProjects/ASTE/Release1/nctiles_monthly_snapshots): ASTE Release 1 snapshots of monthly fields output as tiled NetCDF files
 - [Release1/nctiles_climatology](https://web.corral.tacc.utexas.edu/OceanProjects/ASTE/Release1/nctiles_climatology): ASTE Release 1 climatology fields output as tiled NetCDF files
