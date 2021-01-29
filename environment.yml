@@ -1,7 +1,4 @@
-# following xgcm ci environment specs
-# see: https://pip.pypa.io/en/stable/reference/pip_install/#git
-# for how to specify branches of repos
-name: py38_tim
+name: aste
 channels:
   - conda-forge
 dependencies:
